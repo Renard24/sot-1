@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 1904048385}
   - component: {fileID: 1904048387}
   - component: {fileID: 1904048386}
-  - component: {fileID: 1904048390}
+  - component: {fileID: 1904048389}
   m_Layer: 0
   m_Name: equipage
   m_TagString: Untagged
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
---- !u!114 &1904048390
+--- !u!114 &1904048389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1023,12 +1023,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1904048382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87b2b5d5b06bae24b96a368ac1a92cab, type: 3}
+  m_Script: {fileID: 11500000, guid: 2fc4965f43514b04688218b5805b70a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 1622482706}
-  direction: {x: 1, y: 0}
-  bulletSpeed: 10
+  shootingPoint: {fileID: 2106893754}
+  bulletPrefab: {fileID: 1622482706}
 --- !u!1 &2106893753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,5 +1430,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2427497786236156497, guid: 60255f64cd99eef4ab369daf6b2cc5d2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 60255f64cd99eef4ab369daf6b2cc5d2, type: 3}
