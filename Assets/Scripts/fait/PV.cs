@@ -10,7 +10,7 @@ public class PV : MonoBehaviour
 
     [HideInInspector] public int currentHealth;
   
-    private void start()
+    private void Start()
     {
         currentHealth = startingHealth;
     }
