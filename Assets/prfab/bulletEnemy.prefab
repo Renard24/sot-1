@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7233197435186755711}
   - component: {fileID: 5844994902707337715}
   - component: {fileID: 7290855525879156453}
+  - component: {fileID: 1808707574018002622}
   - component: {fileID: 5717980835290455837}
   - component: {fileID: 8873999482391721687}
   - component: {fileID: 3895212334446058649}
@@ -101,6 +102,24 @@ MonoBehaviour:
   bullet: {fileID: 0}
   direction: {x: -1, y: 0}
   bulletSpeed: 5
+--- !u!114 &1808707574018002622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699616311610534224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 308b6c8132a316f40b304549aab86179, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+  startingHealth: 1
+  damageTaken:
+    m_PersistentCalls:
+      m_Calls: []
+  currentHealth: 0
 --- !u!114 &5717980835290455837
 MonoBehaviour:
   m_ObjectHideFlags: 0
