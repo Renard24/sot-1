@@ -9,7 +9,7 @@ public class enemyBehaviour : MonoBehaviour
     private void Start()
     {
         shooter = GetComponent<Shooter2D>();
-        InvokeRepeating(nameof(Shoot), 0, 0.4f);
+        InvokeRepeating(nameof(Shoot), 0, 1f);
     }
 
     private void Shoot()
