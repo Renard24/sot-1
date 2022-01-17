@@ -7,14 +7,14 @@ using UnityEngine;
 public class Lifetext : MonoBehaviour
 {
     private TextMeshProUGUI textMesh;
-    private PV PV;
+    private PVPlayer PV;
 
     private void Awake()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
-        PV = GetComponentInParent<PV>();
+        PV = FindObjectOfType<PVPlayer>();
     }
-    public void UpdateLife()
+    public void Update()
     {
         textMesh.text = PV.currentHealth.ToString();
     }

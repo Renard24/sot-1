@@ -8,6 +8,7 @@ public class PlayerMouvment : MonoBehaviour
     public float Speed = 10f;
     private ZQSD playerInput;
 
+    
     public void Awake()
     {
         playerInput = new ZQSD();
@@ -29,5 +30,12 @@ public class PlayerMouvment : MonoBehaviour
         rb.velocity = moveInput * Speed;
     }
 
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("SpeedBonus"))
+        {
+            Speed = Speed + 5;
+            Destroy(other.gameObject);
+        }
+    }
 }
