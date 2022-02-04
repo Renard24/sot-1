@@ -49,6 +49,7 @@ public class WaveSpwanner : MonoBehaviour
         for (int i = 0; i < _wave.count; i++)
         {
             SpawnEnemy(_wave.enemy);
+            yield return new WaitForSeconds(1f / _wave.rate);
         }
 
         state = SpawnState.WAITING;
@@ -59,6 +60,6 @@ public class WaveSpwanner : MonoBehaviour
 
     void SpawnEnemy(Transform _enemy)
     {
-        Debug.Log("Spawing Enemy: " _enemy.name);
+        Debug.Log("Spawning Enemy: " + _enemy.name);
     }
 }

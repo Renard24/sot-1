@@ -6,12 +6,12 @@ using TMPro;
 public class Lifetext : MonoBehaviour
 {
     private TextMeshProUGUI textMesh;
-    private PVPlayer PV;
+    private LifeBehaviour PV;
 
     private void Awake()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
-        PV = FindObjectOfType<PVPlayer>();
+        PV = FindObjectOfType<LifeBehaviour>();
     }
     public void Update()
     {

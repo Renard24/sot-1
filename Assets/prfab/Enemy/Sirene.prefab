@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5445900945347741286}
   - component: {fileID: 5445900945347741306}
   - component: {fileID: 5445900945347741309}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Sirene
   m_TagString: Untagged
   m_Icon: {fileID: 0}

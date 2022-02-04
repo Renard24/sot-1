@@ -1,18 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.InputSystem;
 using UnityEngine;
 
 public class Player2 : MonoBehaviour
 {
+    private Shoot2D shooter;
+    private PV life;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        shooter = GetComponent<Shoot2D>();
+        life = GetComponent<PV>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        GetComponent<PlayerInput>().SwitchCurrentActionMap("Player2");
+
+    }
+    private void OnFire()
+    {
+        shooter.Shoot();
     }
 }
+ 
