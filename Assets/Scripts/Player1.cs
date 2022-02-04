@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.InputSystem;
 using UnityEngine;
 
 public class Player1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Move2D move;
+  
+    private void Awake()
     {
-        
+        move = GetComponent<Move2D>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void OnMove(InputValue value)
     {
-        
+        move.direction = value.Get<Vector2>();
     }
+
 }
