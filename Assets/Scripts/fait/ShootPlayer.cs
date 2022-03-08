@@ -7,14 +7,14 @@ using UnityEngine.InputSystem;
 public class ShootPlayer : MonoBehaviour
 {
     public Transform shootingPoint;
-    public GameObject bulletPrefab;
+    public GameObject bulletEquipage;
    
     
     void Update()
     {
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
+            Instantiate(bulletEquipage, shootingPoint.position, transform.rotation);
         }
     }
 }

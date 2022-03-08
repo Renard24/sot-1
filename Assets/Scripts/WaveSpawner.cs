@@ -59,6 +59,6 @@ public class WaveSpwanner : MonoBehaviour
 
     void SpawnEnemy(Transform _enemy)
     {
-        Debug.Log("Spawing Enemy: " _enemy.name);
+        
     }
 }
