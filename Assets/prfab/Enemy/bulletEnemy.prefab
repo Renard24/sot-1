@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f94e45898391f4082928a8fb1233a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 0}
+  bullet: {fileID: 3699616311610534224}
   direction: {x: -1, y: 0}
   bulletSpeed: 5
 --- !u!114 &1808707574018002622
