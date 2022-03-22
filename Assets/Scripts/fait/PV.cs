@@ -8,6 +8,7 @@ public class PV : MonoBehaviour
     public int startingHealth;
     public UnityEvent damageTaken;
 
+    public LayerMask mask;
 
     [HideInInspector] public int currentHealth;
   
@@ -27,13 +28,17 @@ public class PV : MonoBehaviour
       
     }
 
-    private void OnCollisionEnter2D()
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        TakeDamage();  
+        if(mask==(mask|(1<<col.gameObject.layer)))
+            TakeDamage();  
+
     }
     
     private void ModifyHealth(int modifier)
     {
         currentHealth = Mathf.Clamp(currentHealth + modifier, 0, maxHealth);
     }
+
+
 }

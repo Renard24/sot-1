@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 901938963}
   - component: {fileID: 901938962}
   m_Layer: 0
-  m_Name: Square
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1253,6 +1253,10 @@ PrefabInstance:
     - target: {fileID: 607194783774867045, guid: ab1f35979a1386e45a59117d6806ca60, type: 3}
       propertyPath: m_Name
       value: Shark
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964780189513699794, guid: ab1f35979a1386e45a59117d6806ca60, type: 3}
+      propertyPath: mask.m_Bits
+      value: 264
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab1f35979a1386e45a59117d6806ca60, type: 3}
