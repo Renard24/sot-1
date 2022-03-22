@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - enemy
-  - bullet enemy
+  - bulletEnemy
   - bulletEquipage
   - enemy (1)
   - enemy (2)
