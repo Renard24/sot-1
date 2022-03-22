@@ -104,6 +104,9 @@ MonoBehaviour:
   damageTaken:
     m_PersistentCalls:
       m_Calls: []
+  mask:
+    serializedVersion: 2
+    m_Bits: 256
   currentHealth: 0
 --- !u!250 &5445900945347741305
 PointEffector2D:
