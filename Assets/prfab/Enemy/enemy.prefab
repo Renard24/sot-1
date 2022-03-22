@@ -147,6 +147,9 @@ MonoBehaviour:
   damageTaken:
     m_PersistentCalls:
       m_Calls: []
+  mask:
+    serializedVersion: 2
+    m_Bits: 256
   currentHealth: 0
 --- !u!114 &2969712255961726924
 MonoBehaviour:
@@ -160,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f94e45898391f4082928a8fb1233a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 0}
+  bullet: {fileID: 3699616311610534224, guid: 5d4f2bd80b9d0a04590932cdd9298137, type: 3}
   direction: {x: -1, y: 0}
   bulletSpeed: 20
 --- !u!61 &2969712255961726925
