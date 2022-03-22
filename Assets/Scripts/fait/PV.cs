@@ -27,7 +27,7 @@ public class PV : MonoBehaviour
       
     }
 
-    private void OnCollisionEnter2D()
+    private void OnTriggerEnter2D()
     {
         TakeDamage();  
     }
