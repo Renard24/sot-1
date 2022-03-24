@@ -22,7 +22,7 @@ public class LifeBehaviour : MonoBehaviour
             Destroy(gameObject);
     }
 
-    private void OnCollisionEnter2D()
+    private void OnTriggerEnter2D()
     {
         TakeDamage();
     }

@@ -28,7 +28,7 @@ public class PV : MonoBehaviour
       
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnTriggerEnter2D()
     {
         if(mask==(mask|(1<<col.gameObject.layer)))
             TakeDamage();  
