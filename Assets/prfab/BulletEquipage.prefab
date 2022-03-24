@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 470436684842458370}
   - component: {fileID: 7071091639561863138}
   m_Layer: 0
-  m_Name: bulletEquipage
+  m_Name: BulletEquipage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103,6 +103,9 @@ MonoBehaviour:
   damageTaken:
     m_PersistentCalls:
       m_Calls: []
+  mask:
+    serializedVersion: 2
+    m_Bits: 98432
   currentHealth: 0
 --- !u!50 &8585952496392827644
 Rigidbody2D:
@@ -163,5 +166,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93e991b4a61c39a4d98d39aa682c4cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 15
   direction: {x: 1, y: 0}
