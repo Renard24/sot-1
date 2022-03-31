@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1702810949391263242}
   - component: {fileID: 5445900945347741304}
-  - component: {fileID: 3803260131648088729}
+  - component: {fileID: 6344505748649482675}
   - component: {fileID: 5445900945347741305}
   - component: {fileID: 5445900945347741286}
   - component: {fileID: 5445900945347741306}
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3803260131648088729
+--- !u!114 &6344505748649482675
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,17 +96,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 4222887673673187160}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 308b6c8132a316f40b304549aab86179, type: 3}
+  m_Script: {fileID: 11500000, guid: d0f1cea7b2efc9c49b5a897d6953afb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 2
-  startingHealth: 2
+  maxHealth: 2147483647
+  startingHealth: 2147483647
   damageTaken:
     m_PersistentCalls:
       m_Calls: []
   mask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   currentHealth: 0
 --- !u!250 &5445900945347741305
 PointEffector2D:

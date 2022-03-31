@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 7233197435186755711}
   - component: {fileID: 5844994902707337715}
   - component: {fileID: 7290855525879156453}
-  - component: {fileID: 1808707574018002622}
   - component: {fileID: 5717980835290455837}
   - component: {fileID: 8873999482391721687}
   - component: {fileID: 3895212334446058649}
+  - component: {fileID: 7700651504401504300}
+  - component: {fileID: 7429308383626086221}
   m_Layer: 7
   m_Name: bulletEnemy
   m_TagString: Untagged
@@ -102,27 +103,6 @@ MonoBehaviour:
   bullet: {fileID: 3699616311610534224}
   direction: {x: -1, y: 0}
   bulletSpeed: 5
---- !u!114 &1808707574018002622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3699616311610534224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 308b6c8132a316f40b304549aab86179, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 1
-  startingHealth: 1
-  damageTaken:
-    m_PersistentCalls:
-      m_Calls: []
-  mask:
-    serializedVersion: 2
-    m_Bits: 8
-  currentHealth: 0
 --- !u!114 &5717980835290455837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,3 +164,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7700651504401504300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699616311610534224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f1cea7b2efc9c49b5a897d6953afb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 0
+  startingHealth: 0
+  damageTaken:
+    m_PersistentCalls:
+      m_Calls: []
+  mask:
+    serializedVersion: 2
+    m_Bits: 0
+  currentHealth: 0
+--- !u!114 &7429308383626086221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699616311610534224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bea78daffcc8a67468052a95dae9e25a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestroy: 3
