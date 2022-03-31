@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3924392494735026688}
   - component: {fileID: 3924392494735026695}
   - component: {fileID: 3924392494735026692}
+  - component: {fileID: 4381512062649183641}
   m_Layer: 3
   m_Name: Equipage
   m_TagString: Untagged
@@ -231,6 +232,25 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentHealth: 0
+--- !u!95 &4381512062649183641
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322640858049372124}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3924392494519432891
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3924392494519432891}
   m_LocalRotation: {x: -0, y: -0, z: 1.4551914e-10, w: 1}
-  m_LocalPosition: {x: 1.1219993, y: -0.311, z: 0}
+  m_LocalPosition: {x: 1.1219993, y: 0.147, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5070349328090664717}

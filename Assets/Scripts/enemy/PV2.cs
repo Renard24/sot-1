@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-public class PV : MonoBehaviour
+public class PV2: MonoBehaviour
 {
     public int maxHealth;
     public int startingHealth;
@@ -11,7 +11,7 @@ public class PV : MonoBehaviour
     public LayerMask mask;
 
     [HideInInspector] public int currentHealth;
-  
+
     private void Start()
     {
         currentHealth = startingHealth;
@@ -25,16 +25,16 @@ public class PV : MonoBehaviour
         if (currentHealth <= 0)
             Destroy(gameObject);
 
-      
+
     }
 
-    private void OnCollisionEnter2D()
+    private void OnTriggerEnter2D()
     {
-        
-            TakeDamage();  
+
+        TakeDamage();
 
     }
-    
+
     private void ModifyHealth(int modifier)
     {
         currentHealth = Mathf.Clamp(currentHealth + modifier, 0, maxHealth);

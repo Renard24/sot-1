@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8585952496392827644}
   - component: {fileID: 470436684842458370}
   - component: {fileID: 7071091639561863138}
+  - component: {fileID: 6550201155198658867}
   m_Layer: 0
   m_Name: BulletEquipage
   m_TagString: Untagged
@@ -168,3 +169,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   direction: {x: 1, y: 0}
+--- !u!114 &6550201155198658867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4037712227042144066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bea78daffcc8a67468052a95dae9e25a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestroy: 3
