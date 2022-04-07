@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2743062017200911255}
   - component: {fileID: 811813567383731209}
+  - component: {fileID: 8807118852683376471}
   - component: {fileID: 811813567383731211}
   m_Layer: 0
   m_Name: Ile
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2807542164571398978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.21, y: -7.06, z: 0}
-  m_LocalScale: {x: 52.175, y: 1, z: 1}
+  m_LocalScale: {x: 377.61658, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -83,6 +84,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8807118852683376471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2807542164571398978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af41498ecd4bf4244891ba78bebcfc89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  offset: -377
 --- !u!61 &811813567383731211
 BoxCollider2D:
   m_ObjectHideFlags: 0
